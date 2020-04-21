@@ -19,3 +19,34 @@ optimization of its feature representations. We evaluate the proposed AWPCN mode
 on Market-1501, DukeMTMC-reID and CUHK03 datasets. In extensive experiments, the
 AWPCN model outperforms most of the state-of-the-art methods on these representative
 datasets which clearly demonstrates the effectiveness of our proposed method.
+
+The matlab code for AWPCN can be downloaded [here[google]]() or [here[baidu(password)]]().
+
+## Prerequisites
+
+- Python 3.6
+- GPU Memory >= 6G
+- Numpy
+- Pytorch 0.3+
+- [Optional] apex 
+
+## Train
+python train.py
+
+## Test
+python test.py
+
+## Demo
+python demo.py --query_index 666
+
+## Results
+| Dataste | Market-1501 | DukeMTMC-ReID | CUHK03 |
+| --------| --------| ------- | ------ |
+| Rank-1  | 0.940   | 0.857   | 0.673  | 
+| mAP     | 0.821   | 0.741   | 0.628  |
+
+
+## Contact
+Feedbacks and comments are welcome! Feel free to contact us via dyuanhit@gmail.com
+
+
