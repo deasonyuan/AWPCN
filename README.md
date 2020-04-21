@@ -20,7 +20,7 @@ on Market-1501, DukeMTMC-reID and CUHK03 datasets. In extensive experiments, the
 AWPCN model outperforms most of the state-of-the-art methods on these representative
 datasets which clearly demonstrates the effectiveness of our proposed method.
 
-The matlab code for AWPCN can be downloaded [here[google]]() or [here[baidu(password)]]().
+The code for AWPCN can be downloaded [here[google]]() or [here[baidu(password)]]().
 
 ## Prerequisites
 
